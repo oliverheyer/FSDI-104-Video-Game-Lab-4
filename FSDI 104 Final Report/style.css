@@ -1,0 +1,159 @@
+#header{
+    min-height: 100px;
+    font-size: 25px;
+    background-image: url(img/mk1.jpeg);
+}
+
+#menu{
+    min-height: 50px;
+    background-color: #e05252;
+    
+    
+}
+#body{
+    min-height: 425px;
+    margin-top: 3%;
+    background-color: #e05252;
+   
+  }
+
+#image1{
+    background-image: url(img/scor.jpg)
+}
+
+
+
+
+#header, #menu, #body, #footer{
+    margin-left:5%;
+    margin-right: 5%;
+    
+    box-shadow: 3px 5px 7px #666666;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#clock{
+    font-size: 25px;
+}
+
+.rounded{
+    width: 150px;
+    height: 200px;
+    margin: 50px;
+    
+}
+
+.img-c{
+    height: 200px;
+    width: 200px ;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+
+.wrap-main{
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px ;
+    
+}
+
+.square{
+    display: inline-block;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+    
+    
+    
+}
+
+.console{
+    background: rgb(216, 210, 210);
+    border: 10px soild black;
+    height: 300px;
+    border-radius: 15px;
+    text-align: center;
+    
+    
+    
+}
+
+.btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    color: red;
+    font-size: 15px;
+}
+
+
+.btnr{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    color: red;
+    font-size: 15px;
+    
+
+}
+    
+
+
+
+.image_left{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right:2%
+    
+}
+
+.image_right{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-left:2%;
+}
+
+.video{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 57%;
+}
+
+.video iframe{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 80%;
+    background-color: black;
+}
+
+#header{
+    height: 100px;
+    background-image: url(img/mk1.jpeg);
+    background-position: center;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    
+    
+
+}
+
+.c1{
+    float: left;
+    text-align: center;
+    
+}
+
+.c2{
+    float: right;
+    text-align: center;
+}

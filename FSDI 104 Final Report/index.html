@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<style>
+
+@media screen and (max-width:6px), screen\0{
+    .image_left, .image_rigth{
+        float: initial;
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+
+
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Planet Arcade</title>
+</head>
+<body>
+    <div id="header">
+        <center></center>
+        <img src="">
+    </div>
+    
+    <div id="menu">
+        <center>Mortal Kombat I</center>
+        
+       <center> <section id='clock'>
+            Clock Goes Here 
+             </section></center>
+    </div>
+    
+    <div id="body">
+        <center>Combatants</center>
+        <hr>
+        
+        <main>
+                <div class="">
+                    <div class="c1">
+                        <img class="image_left" src="img/rad1.jpg" alt="character 1">
+                        
+                       
+                        <div id="c1">
+
+                        </div>
+                        <br>
+                        <button class="btn" onclick="c1.attack(c2,selectItem());">Attack </button>
+                        </div>
+                      
+                        <div class="c2">
+                            
+                            <img class="image_right" src="img/scor.jpg" alt="character 2">
+                         
+                            <div  id="c2">
+                
+                            </div>
+                <br>
+                            <button class="btn" onclick="c2.attack(c1,selectItem());">Attack</button>
+                        </div>
+                       <div class="console" id="console"></div>
+                
+                       <center> <button class="btnr" onclick="reset()">Reset</button> </center>
+                    </div>
+                    
+                    
+                
+                    </main>     
+                
+        
+    
+    
+    </div>
+    
+   
+   
+   
+   
+    <div id="footer">
+        <div class="video">
+                
+        <iframe  src="img/Mortal Kombat Theme Song Original.mp4"></iframe>
+           
+        </div>    
+        
+       
+    </div>
+
+
+    <script src="clock.js"></script>
+    <script src="game.js"> </script>
+</body>
+</html>
